@@ -46,17 +46,17 @@ public class Main {
     for (float v : weekCost) {
       summ3 += v;
     }
-    System.out.println("Средняя сумма трат за месяц составила : " + summ3 / 31 + " рублей");
+    System.out.println(
+        "Средняя сумма трат за месяц составила : " + summ3 / weekCost.length + " рублей");
 
     System.out.println("  Задача 4");
 
     char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
 
     for (int i = reverseFullName.length - 1; i >= 0; i--) {
-             System.out.print(reverseFullName[i]);
-      }
-
+      System.out.print(reverseFullName[i]);
+    }
 
 
   }
- }
+}
